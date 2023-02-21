@@ -1,11 +1,18 @@
 # odin-recipes
-Jesse we need to cook
 
-First Recipes Project html website
-----------------------------------
+"*Jesse we need to cook*" Walter White
 
-Content: - Welcome page
-         - 3 different recipes
+## First Recipes Project html website
 
-Skills:  - Creation of index.html with correct links redirection
-         - Structuring text paragraph, insert images
+
+### Content 
+
+Welcome page
+
+3 different recipes
+
+### Skills
+
+Creation of index.html with correct links redirection
+
+Structuring text paragraph, insert images
