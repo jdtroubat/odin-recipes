@@ -7,12 +7,10 @@
 
 ### Content 
 
-Welcome page
-
-3 different recipes
+Welcome page with Odin theme and 3 different recipes
 
 ### Skills
 
 Creation of index.html with correct links redirection
 
-Structuring text paragraph, insert images
+Structuring text paragraph, insert images and resizing them
