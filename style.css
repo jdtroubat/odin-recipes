@@ -1,20 +1,32 @@
+* {
+    box-sizing: auto;
+    margin: 20px;
+}
+
 .title {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
     background-color: khaki;
-    margin-bottom: 20px;
+    border: 2px solid grey;
 }
 
 .img {
     text-align: center;
+    width: auto;
+    height: auto;
 }
 
-h2 {
-    background-color: khaki;
-}
-
+h2,
 h3 {
     background-color: khaki;
+    border: 2px solid grey;
 }
 
+ol,
+ul,
+li,
+p {
+    text-align:left;
+    justify-content:center ;
+}
