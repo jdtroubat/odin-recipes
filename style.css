@@ -1,32 +1,65 @@
 * {
-    box-sizing: auto;
-    margin: 20px;
+
 }
 
-.title {
+.title {                     /* Principal title */
+    display: flex;
+    justify-content: center;
+    text-align: center;  
     font-size: 32px;
     font-weight: bold;
-    text-align: center;
     background-color: khaki;
     border: 2px solid grey;
+    margin-bottom: 20px;
 }
 
 .img {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    width: auto;
-    height: auto;
+    height: 300px;
+    width: auto;  
 }
 
-h2,
-h3 {
-    background-color: khaki;
+.url {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.omelet,
+.sandwich,
+.hotdog {
+    padding: 10px;
     border: 2px solid grey;
+    background-color: khaki;
 }
 
-ol,
-ul,
-li,
-p {
-    text-align:left;
+.sandwich {
+    border-left: 0;
+    border-right: 0;
+}
+h2,                             /* Description title */
+h3 {                            /* Description ingredients */
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: khaki;
+    border: 2px solid grey;  
+}
+p {                              /* Paragraphe Description Recette */
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+ul,                               /* Liste ingrédients */
+ol {                              /* Steps */
+    display: flex;
     justify-content:center ;
+    text-align: left;
+    flex-direction: column;
 }
