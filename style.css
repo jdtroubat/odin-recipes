@@ -17,8 +17,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 300px;
-    width: auto;  
+    height: 400px;
+    max-width: auto;;  
 }
 
 .url {
