@@ -1,16 +1,15 @@
-# odin-recipes
+# Odin's Recipes
 
 "*Jesse we need to cook*" Walter White
 
-## First Recipes Project html website
-
-
 ### Content 
 
-Welcome page with Odin theme and 3 different recipes
+Welcome page with Odin's theme and 3 different recipes
 
 ### Skills
 
-Creation of index.html with correct links redirection
+Correct links redirection
 
-Structuring text paragraph, insert images and resizing them
+Structuring text paragraph, insert images and resizing
+
+Play with CSS
