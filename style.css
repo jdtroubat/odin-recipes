@@ -1,61 +1,91 @@
-* {
-    max-height: fit-content;
-    max-width: auto;
-    justify-content: center;
-
-}
-
-.title {         
+body {
     display: flex;
-    font-size: 32px;
+    flex-direction: column;
+    margin: 50px;
+    background-color: beige;
+    border-top: solid saddlebrown 2px;
+    border-bottom: solid saddlebrown 2px;
+}
+.title {
+    display: flex ;
+    align-self: center;
+    flex-grow: 1;
+    padding: 50px;
+    font-size: 50px;
     font-weight: bold;
-    background-color: burlywood;
-    border: 2px solid grey;
-    margin-bottom: 20px;
 }
 
 .img {
     display: flex;
-    text-align: center;  
+    align-self: center;
+    flex-grow: 1;
+    border: solid saddlebrown 5px;
+    border-radius: 8px 10px 12px 14px;
+    margin-bottom: 30px;
+}
+
+h2,
+h3 {
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+    padding: 10px;
+    border-top: solid saddlebrown 2px;
+    border-bottom: solid saddlebrown 2px;   
+}
+
+p {
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+}
+
+ul {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+ol {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    margin: 0;
+    padding: 0px;
 }
 
 .url {
     display: flex;
-    flex: 1;
-    padding: 20px;
+    align-self: center;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    border-top: solid saddlebrown 2px;
 }
 
-.omelet,
-.sandwich,
-.hotdog {
+li {
     display: flex;
-    flex: 1;
+    flex-shrink: 1;
+    justify-self: center;
     padding: 10px;
-    border: 2px solid grey;
-    background-color: burlywood;
+    font-style: italic;
 }
 
-.sandwich {
-    border-left: 0;
-    border-right: 0;
-}
-
-h2,      
-h3 {                            
-    display:flex;
-    background-color: burlywood;
-    border: 2px solid grey;  
-}
-
-p {                
+a {
     display: flex;
-    justify-content: left;
-    margin-left: 20px;  
+    flex-grow: 1;
+    align-self: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
 }
 
-ol,
-ul {
-   display: flex;
-    flex: 1;
-    flex-direction: column;
+button {
+    border: none;
+    background-color: beige;
 }
