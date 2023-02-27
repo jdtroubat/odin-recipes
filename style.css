@@ -45,6 +45,7 @@ p {
     display: flex;
     align-self: center;
     flex-grow: 1;
+    font-size: large;
 }
 
 ul {
@@ -77,6 +78,7 @@ li {
     display: flex;
     padding: 10px;
     font-style: italic;
+    font-size: large;
 }
 
 a {
